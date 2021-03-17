@@ -1,0 +1,2 @@
+#Intervalo
+print("Hello world")
