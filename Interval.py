@@ -1,15 +1,5 @@
 import DependenciasIntervalos as Dependencias
 
-#Intervalo
-
-#Clase
-#Intervalos
-# Un intervalo, un conjunto de pares ordenados
-# Una serie de restriciones
-
-#Indicar el maximo y el minimo de la tarea para poder hacer la misma operacion con otros intervalos.
-#Tambien tenemos que controlar las constraint con los inversos.
-
 class Intervalo:
     def __init__(x_inicio, x_fin ,y_inicio, y_fin , dependences):
         self.point_x_start = x_inicio
