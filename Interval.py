@@ -1,3 +1,5 @@
+import DependenciasIntervalos as Dependencias
+
 #Intervalo
 
 #Clase
@@ -7,7 +9,6 @@
 
 #Indicar el maximo y el minimo de la tarea para poder hacer la misma operacion con otros intervalos.
 #Tambien tenemos que controlar las constraint con los inversos.
-import DependenciasIntervalos as Dependencias
 
 class Intervalo:
     def __init__(x_inicio, x_fin ,y_inicio, y_fin , dependences):
@@ -40,8 +41,6 @@ class Intervalo:
                     if dep not in misDependencias:
                         misDependencias.append(dep)
 
-       
-
-
-print("Hello world")
+      
 print(Dependencias.DepenEnum.DURANTE.value)
+print("BadSmell")
