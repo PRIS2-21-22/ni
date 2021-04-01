@@ -1,5 +1,3 @@
-import DependenciasIntervalos as Dependencias
-
 class Intervalo:
     def __init__(x_inicio, x_fin ,y_inicio, y_fin , dependences):
         self.point_x_start = x_inicio
@@ -19,18 +17,3 @@ class Intervalo:
             self.point_end_main = self.point_x_end
         else:
             self.point_end_main = self.point_y_end
-
-
-        self.misDependencias = []
-
-
-
-        for dep in dependences:
-            if isinstance(dep, int) is true
-                if dep >0 && dep <14
-                    if dep not in misDependencias:
-                        misDependencias.append(dep)
-
-      
-print(Dependencias.DepenEnum.DURANTE.value)
-print("BadSmell")
